@@ -6,7 +6,6 @@ import { Recipe } from '../recipe.model';
   standalone: false,
 
   templateUrl: './recipe-list.component.html',
-  styleUrl: './recipe-list.component.css',
 })
 export class RecipeListComponent {
   @Output() recipeWasSelected = new EventEmitter<Recipe>();
